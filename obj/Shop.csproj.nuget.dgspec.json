@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tir4y/Projects/T4YDigital/labs/Shop/Shop.csproj": {}
+  },
+  "projects": {
+    "/Users/tir4y/Projects/T4YDigital/labs/Shop/Shop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tir4y/Projects/T4YDigital/labs/Shop/Shop.csproj",
+        "projectName": "Shop",
+        "projectPath": "/Users/tir4y/Projects/T4YDigital/labs/Shop/Shop.csproj",
+        "packagesPath": "/Users/tir4y/.nuget/packages/",
+        "outputPath": "/Users/tir4y/Projects/T4YDigital/labs/Shop/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/tir4y/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
