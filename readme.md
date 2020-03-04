@@ -7,6 +7,6 @@ This project was created based on articles by André Baltieri on your <a href="h
 <h2>How to use?</h2>
 
 * Copy the project to your computer
-* Enter on folder
+* Enter on folder shopapi 'cd shopapi'
 * Execute 'dotnet restore'
 * Execute 'dotnet run' to start the project
