@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shop.Data;
@@ -19,6 +20,7 @@ namespace Shop.Controllers {
 
         [HttpPost]
         [Route ("")]
+        [Authorize (Roles = "admin")]
         public async Task<ActionResult<Category>> Post ([FromServices] DataContext context, [FromBody] Category model) {
             if (ModelState.IsValid) {
                 context.Categories.Add (model);

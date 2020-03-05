@@ -10,3 +10,6 @@ This project was created based on articles by André Baltieri on your <a href="h
 * Enter on folder shopapi <i>'cd shopapi'</i>
 * Execute <i>'dotnet restore'</i>
 * Execute <i>'dotnet run'</i> to start the project
+
+
+dotnet tool install --global dotnet-watch --version 2.2.0
